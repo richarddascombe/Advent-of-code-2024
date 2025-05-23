@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Jupyter/Colab
+.ipynb_checkpoints
+*.ipynb-filter
+.vscode/
+
+# IDEs and OS
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data and Logs (often kept out of version control)
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.sqlite
+*.log
+logs/
+
+# Miscellaneous
+/data/  # If you have a 'data' folder for large datasets
+/output/ # If you have an 'output' folder for generated results
